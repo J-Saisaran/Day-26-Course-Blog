@@ -1,0 +1,31 @@
+.app-bar {
+    background-color: #004d40; /* Dark teal background */
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+}
+
+.app-bar__title h1 {
+    margin: 0;
+    font-size: 24px;
+}
+
+.app-bar__nav {
+    display: flex;
+    gap: 20px;
+}
+
+.app-bar__link {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 8px 16px;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+}
+
+.app-bar__link:hover {
+    background-color: #00796b; 
+}
