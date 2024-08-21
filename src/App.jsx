@@ -13,7 +13,7 @@ function App() {
         <div>
 <AppBar />
             <Routes>
-                <Route path="/all" element={<AllCourses />} />
+                <Route path="/" element={<AllCourses />} />
                 <Route path="/fullstack" element={<FullStack />} />
                 <Route path="/datascience" element={<DataScience />} />
                 <Route path="/cybersecurity" element={<CyberSecurity />} />
