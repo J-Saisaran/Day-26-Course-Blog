@@ -9,7 +9,7 @@ const AppBar = () => {
                 <h1>Courses</h1>
             </div>
             <nav className="app-bar__nav">
-                <Link to="/all" className="app-bar__link">All</Link>
+                <Link to="/" className="app-bar__link">All</Link>
                 <Link to="/fullstack" className="app-bar__link">Full Stack Development</Link>
                 <Link to="/datascience" className="app-bar__link">Data Science</Link>
                 <Link to="/cybersecurity" className="app-bar__link">Cyber Security</Link>
